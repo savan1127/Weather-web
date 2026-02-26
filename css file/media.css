@@ -1,0 +1,77 @@
+                            @media (max-width:767px) {
+                                .weather-app-container {
+                                    gap: 24px;
+                                    padding: 42px 0;
+                                }
+                                h1 {
+                                    font-size: 25px;
+                                    line-height: 26px;
+                                }
+                                .weather-app {
+                                    gap: 13px;
+                                    padding: 20px 30px;
+                                    border-radius: 12px;
+                                }
+                                .search-form {
+                                    max-width: 300px;
+                                    gap: 6px;
+                                }
+                                input[type='text'] {
+                                    padding: 8px;
+                                    border: 1px solid #3498db;
+                                    outline: none;
+                                    border-radius: 8px;
+                                    font-size: 12px;
+                                }
+                                .search-btn {
+                                    padding: 8px;
+                                    border-radius: 8px;
+                                }
+                                .material-icons {
+                                    font-size: 14px;
+                                }
+                                .city-date-section {
+                                    gap: 6px;
+                                }
+                                .city-date-section .city {
+                                    font-size: 24px;
+                                    line-height: 24px;
+                                }
+                                .city-date-section .date {
+                                    padding: 5px 12px;
+                                    border-radius: 10px;
+                                    font-size: 14px;
+                                    line-height: 14px;
+                                }
+                                .temperature-info .temp {
+                                    font-size: 40px;
+                                }
+                                .temperature-info .description {
+                                    gap: 6px;
+                                }
+                                .temperature-info .description span {
+                                    font-size: 18px;
+                                    line-height: 21px;
+                                }
+                                .additional-info {
+                                    gap: 18px;
+                                }
+                                .wind-info,
+                                .humidity-info,
+                                .visibility-info {
+                                    width: 85px;
+                                    gap: 6px;
+                                    border-radius: 7px;
+                                    padding: 12px 10px;
+                                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                                }
+                                .additional-info .material-icons {
+                                    font-size: 18px;
+                                }
+                                .data h3,
+                                .data p {
+                                    font-size: 12px;
+                                    font-weight: 600;
+                                    line-height: 21px;
+                                }
+                            }
